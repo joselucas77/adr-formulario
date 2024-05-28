@@ -1,10 +1,21 @@
 "use client";
+// import { useState } from "react";
 import { useAppContext } from "@/contexts/context";
 
 const PersonalForm = () => {
   const { handleNextStep } = useAppContext();
+  // const [name, setName] = useState("");
+  // const [sex, setSex] = useState("");
+  // const [age, setAge] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [phone, setPhone] = useState(0);
+  // const [cpf, setCpf] = useState("");
+  // const [adress, setAdress] = useState("");
+  // const [number, setNumber] = useState(0);
+  // const [neighborhood, setNeighborhood] = useState("");
+  // const [city, setCity] = useState("");
   return (
-    <form action="#">
+    <form>
       <h3 className="mb-4 text-lg px-3 font-medium leading-none text-gray-900 dark:text-white">
         Dados Pessoais
       </h3>

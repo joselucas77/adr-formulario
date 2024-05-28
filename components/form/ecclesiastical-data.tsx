@@ -4,7 +4,7 @@ import { useAppContext } from "@/contexts/context";
 const EcclesiasticalData = () => {
   const { handleNextStep, handlebeforeStep } = useAppContext();
   return (
-    <form action="#">
+    <form>
       <h3 className="flex justify-center mb-4 text-lg px-3 font-medium leading-none text-gray-900 dark:text-white">
         Dados Eclesiásticos
       </h3>
