@@ -19,7 +19,7 @@ const PersonalForm = () => {
       <h3 className="mb-4 text-lg px-3 font-medium leading-none text-gray-900 dark:text-white">
         Dados Pessoais
       </h3>
-      <div className="grid gap-4 mb-4 sm:grid-cols-2 shadow-inner px-3 py-5 max-h-[38rem] overflow-auto">
+      <div className="grid gap-4 mb-4 sm:grid-cols-2 shadow-inner px-3 py-5 max-h-[28rem] overflow-auto">
         <div>
           <label
             htmlFor="fullName"
@@ -45,7 +45,7 @@ const PersonalForm = () => {
             <select
               id="sex"
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-              <option selected>Selecione</option>
+              <option defaultValue="">Selecione</option>
               <option value="he">Masculino</option>
               <option value="she">Feminino</option>
             </select>
