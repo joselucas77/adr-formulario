@@ -293,7 +293,7 @@ const PersonalForm = () => {
                   ? "bg-red-50 border-red-500 text-red-900 placeholder-red-700 focus:ring-red-500 focus:border-red-500 dark:text-red-500 dark:placeholder-red-500 dark:border-red-500"
                   : "bg-gray-50 border-gray-300 text-gray-900 focus:ring-blue-600 focus:border-blue-600 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               }`}
-              placeholder="Aeroporto"
+              placeholder="Rua Manuel Gomes"
               {...register("adress", { required: true })}
             />
             {errors.adress?.type === "required" && (

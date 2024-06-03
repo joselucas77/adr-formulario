@@ -8,9 +8,8 @@ export default function Home() {
   const { activeTab } = useAppContext();
   return (
     <main>
-      {/* {activeTab === "personal" && <PersonalForm />} */}
-      {activeTab === "personal" && <EcclesiasticalData />}
-      {/* {activeTab === "church" && <EcclesiasticalData />} */}
+      {activeTab === "personal" && <PersonalForm />}
+      {activeTab === "church" && <EcclesiasticalData />}
       {activeTab === "finished" && <Finished />}
     </main>
   );
