@@ -4,7 +4,7 @@ import React from "react";
 import { LuChurch } from "react-icons/lu";
 
 const ProgressStepper = () => {
-  const { activeTab, personal, church, finished, cont } = useAppContext();
+  const { activeTab, personal, church, cont } = useAppContext();
   return (
     <ol className="flex items-center w-full px-3 mb-4 sm:mb-5">
       <li

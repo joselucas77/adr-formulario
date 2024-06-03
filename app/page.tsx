@@ -7,10 +7,11 @@ import Finished from "@/components/finished/finished";
 export default function Home() {
   const { activeTab } = useAppContext();
   return (
-    <>
-      {activeTab === "personal" && <PersonalForm />}
-      {activeTab === "church" && <EcclesiasticalData />}
+    <main>
+      {/* {activeTab === "personal" && <PersonalForm />} */}
+      {activeTab === "personal" && <EcclesiasticalData />}
+      {/* {activeTab === "church" && <EcclesiasticalData />} */}
       {activeTab === "finished" && <Finished />}
-    </>
+    </main>
   );
 }
